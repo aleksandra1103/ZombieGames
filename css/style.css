@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../Fonts/opensans-regular-webfont.woff2') format('woff2'),
+    url('../Fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    font-family: 'Open Sans', Arial, sans-serif;
+
+}
+
+header {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+
+.headrer-container {
+    align-items: center;
+    margin: 0 auto;
+    height: 515px;
+    overflow: hidden;
+}
+
+
+.txttop {
+    display: block;
+}
+
+.logo {
+    float: top;
+    display: block;
+    margin-top: 60px;
+}
+
+.txttop p {
+    text-align: left;
+    color: white;
+    width: 30%;
+    display: flex;
+    float: left;
+}
+
+.imghand {
+    width: 40%;
+    float:right;
+    margin-top: -77px;
+
+}
+
+.sectiion-first-container {
+    text-align: center;
+    background-color: white;
+}
+
+.sectiion-first-container h1 {
+    font-size: 30px;
+    color: #232323;
+}
+.sectiion-first-container p {
+    font-size: 18px;
+    color: #838383;
+}
+
+.section-second-container:after {
+    content: '';
+    background-color: white;
+    display: block;
+    clear: both;
+
+}
+
+.article {
+    width: calc(100% / 3);
+    background-color: white;
+    float: left;
+    font-size: 16px;
+    color: #838383;
+
+}
+.article h2 {
+    font-size: 24px;
+    color: #232323;
+    text-align: center;
+
+}
+
+.article p {
+    font-size: 16px;
+    color: #838383;
+    text-align: center;
+}
+
+.section-second-container .article p {
+    font-size: 16px;
+    color: #838383;
+    text-align: center;
+}
