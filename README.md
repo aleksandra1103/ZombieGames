@@ -1,2 +1,1 @@
-# ZombieGames
-Strzelaj do zombie !
+Landing page
